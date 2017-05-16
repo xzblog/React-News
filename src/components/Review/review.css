@@ -1,0 +1,71 @@
+.review-block{
+  margin: 20px 0;
+  background: #fff;
+  padding: 16px;
+}
+.block-title{
+  border-bottom: 1px solid #EDEDED;
+  height: 36px;
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+}
+.review-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.review-item{
+  margin-top: 16px;
+  font-size: 14px;
+  width: 100%;
+  overflow: hidden;
+}
+.review-item-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-icon{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.review-item-top-right{
+  width: 80%;
+}
+.user-name{
+  color: #00AA98;
+  font-size: 15px;
+  font-weight: 400;
+  padding-right: 8px;
+}
+.question{
+  line-height: 22px;
+  padding-top: 3px;
+}
+.review-item-bottom{
+  background: #F3F3F3;
+  width: 100%;
+  height: auto;
+  line-height: 25px;
+  margin: 12px 10px 0 0;
+  padding: 8px 10px;
+  position: relative;
+  border-radius: 2px;
+}
+.review-item-bottom:before{
+  content: "";
+  display: inline-block;
+  border-width: 10px 8px;
+  border-style: solid;
+  font-size: 0;
+  margin-left: -5px;
+  height: 0px;
+  width: 0px;
+  border-color: transparent transparent #F3F3F3;
+  position: absolute;
+  left: 75px;
+  top: -18px;
+}

@@ -1,0 +1,221 @@
+/*轮播组件样式*/
+/*@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";*/
+.swiper-silder {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 16px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-prev {
+    right: 60px;
+}
+.slick-next {
+    right: 8px;
+}
+.slick-prev:before {
+    content: "\E60D";
+}
+.slick-next:before {
+    content: "\E60C";
+}
+.slick-prev:before, .slick-next:before {
+    font-family: "anticon" !important;
+    font-size: 20px;
+    line-height: 1;
+    color: #ccc;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -38px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover::before, .slick-next:hover::before{
+  color: #61dafb;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before, .slick-track:after {
+    box-sizing: border-box;
+    display: table;
+    content: '';
+}
+.slick-track:after{
+  clear: both;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+.product-img-block{
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.product-block-title{
+  border-bottom: 1px solid #EDEDED;
+  height: 36px;
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-block-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;;
+  align-items: center;
+}
+.product-block-item{
+  /*width: 100%;*/
+  /*width: 265px;*/
+  margin: 0 8px;
+  height: 290px;
+  border: 1px solid #ededed;
+  overflow: hidden;
+}
+.product-pic{
+  width: 100%;
+  position: relative;
+}
+.product-pic img{
+  width: 100%;
+  height: 160px;
+}
+.product-block-date{
+  position: absolute;
+  display: block;
+  padding: 0 10px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0,0,0,0.4);
+  top: 10px;
+  left: 10px;
+}
+.product-block-content{
+  position: relative;
+  padding-top: 42px;
+  height: 115px;
+}
+.product-author{
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  z-index: 2;
+}
+.product-author a{
+  color: #666;
+}
+.product-author-icon{
+  width: 64px;
+  height: 64px;
+  border: 7px solid #fff;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.product-author:hover a{
+  color: #61dafb;
+}
+.product-author:hover .product-author-icon{
+  transform: rotate(360deg);
+  transition: all 0.3s linear;
+}
+.product-block-item-title{
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+.product-block-item-title:hover{
+  color: #61dafb;
+}
+.product-block-bottom{
+  width: 100%;
+  padding: 0 10px;
+  font-size: 13px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.product-block-bottom span{
+  margin-right: 15px;
+  color: #9aabb8;
+}
+.eye-icon{
+  vertical-align: bottom;
+}

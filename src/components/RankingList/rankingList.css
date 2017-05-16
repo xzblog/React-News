@@ -1,0 +1,72 @@
+.ranking-block{
+  margin: 20px 0;
+  padding: 16px;
+  background-color: #fff;
+}
+.ranking-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ranking-item a.title{
+  margin-top: 16px;
+  height: 36px;
+  color: #333;
+  line-height: 36px;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ranking-item:hover a.title,
+.ranking-item:first-child a.title{
+  color: #61dafb;
+}
+.ranking-item:hover .ranking-item-center,
+.ranking-item:first-child .ranking-item-center{
+  display: block;
+}
+.ranking-item-center{
+  min-height: 106px;
+  padding: 8px;
+  position: relative;
+  display: none;
+}
+.ranking-item-pic{
+  width: 120px;
+  height: 90px;
+  margin-right: 10px;
+  float: left;
+}
+.ranking-item-icon{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  font-style: normal;
+  color: #999;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 8px;
+  background: url(./c2.png) center no-repeat;
+}
+.ranking-item:nth-child(1) .ranking-item-icon,
+.ranking-item:nth-child(2) .ranking-item-icon,
+.ranking-item:nth-child(3) .ranking-item-icon{
+  color: #61dafb;
+  background: url(./c1.png) center no-repeat;
+}
+.ranking-item-desc{
+  font-size: 14px;
+  color: #999;
+}
+.ranking-item-time{
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  font-size: 13px;
+}

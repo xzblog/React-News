@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+}
+.container{
+  width: 1208px;
+  min-width: 1208px;
+  margin: 0 auto;
+}

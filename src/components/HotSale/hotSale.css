@@ -1,0 +1,56 @@
+.product-img-block{
+  margin: 20px 0;
+}
+.block-title{
+  border-bottom: 1px solid #EDEDED;
+  height: 36px;
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+}
+.hot-sale-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hot-sale-item{
+  margin-top: 16px;
+  height: 36px;
+  line-height: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  border-left: 3px solid #61dafb;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hot-sale-item a{
+  color: #333;
+}
+.hot-sale-item:nth-child(1){
+  border-left: 3px solid #FD5F00;
+}
+.hot-sale-item:nth-child(2){
+  border-left: 3px solid #FFC002;
+}
+.hot-sale-item:nth-child(3){
+  border-left: 3px solid #00A635;
+}
+.hot-sale-item:nth-child(4){
+  border-left: 3px solid #FD5F00;
+}
+.hot-sale-item:nth-child(5){
+  border-left: 3px solid #B92400;
+}
+.hot-sale-item:nth-child(6){
+  border-left: 3px solid #E07E00;
+}
+.hot-sale-item:nth-child(7){
+  border-left: 3px solid #5C68EC;
+}
+.hot-sale-item:nth-child(8){
+  border-left: 3px solid #00A9DA;
+}

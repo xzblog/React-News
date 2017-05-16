@@ -1,0 +1,47 @@
+.header{
+  background-color: #515050;
+}
+.logo-img{
+  animation: logo-spin infinite 20s linear;
+  height: 68px;
+
+}
+.logo{
+  font-size: 24px;
+  color: #61dafb;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  font-size: 15px;
+}
+.ant-menu{
+  background:transparent;
+}
+.ant-menu-item{
+    color: #fff;
+}
+.ant-menu-horizontal {
+  border-bottom: 0;
+}
+.ant-menu-item{
+  padding: 0 26px;
+  line-height: 76px;
+  letter-spacing: 1px;
+}
+.login-register{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

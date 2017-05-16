@@ -1,0 +1,14 @@
+.footer{
+  height: 50px;
+  background: #23282D;
+  line-height: 50px;
+  font-size: 14px;
+}
+.footertext{
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #bbbaba;
+}
+.support{
+  float: right;
+}

@@ -1,0 +1,30 @@
+.hotblock{
+  margin: 20px 0;
+  background: #fff;
+  padding: 16px;
+}
+.hot-title{
+  border-bottom: 1px solid #EDEDED;
+  height: 36px;
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+}
+.hot-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hot-item{
+  line-height: 48px;
+  padding: 0 20px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  white-space:  nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hot-item:nth-child(odd){
+  border-right: 1px solid #ededed;
+}
